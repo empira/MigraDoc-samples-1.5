@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<invoice>
+  <number>42</number>
+  <date>2015-12-08</date>
+  <from>
+    <name>
+      <prefix></prefix>
+      <givenName></givenName>
+      <middleName></middleName>
+      <surname></surname>
+      <suffix></suffix>
+      <singleName></singleName>
+    </name>
+    <address>
+      <line1></line1>
+      <line2></line2>
+      <line3></line3>
+      <line4></line4>
+      <city></city>
+      <stateProvince></stateProvince>
+      <postalCode></postalCode>
+      <country></country>
+    </address>
+    <identificationNumber></identificationNumber>
+    <emailAddressPrimary></emailAddressPrimary>
+    <emailAddressSecondary></emailAddressSecondary>
+    <telephoneNumberWork></telephoneNumberWork>
+    <telephoneNumberHome></telephoneNumberHome>
+    <telephoneNumberCell></telephoneNumberCell>
+    <telephoneNumberPager></telephoneNumberPager>
+    <faxNumber></faxNumber>
+    <jobTitle></jobTitle>
+    <officeLocation></officeLocation>
+    <department></department>
+    <webSite></webSite>
+    <ftpSite></ftpSite>
+    <company>
+      <name></name>
+      <address>
+        <line1></line1>
+        <line2></line2>
+        <line3></line3>
+        <line4></line4>
+        <city></city>
+        <stateProvince></stateProvince>
+        <postalCode></postalCode>
+        <country></country>
+      </address>
+      <identificationNumber></identificationNumber>
+      <telephoneNumber></telephoneNumber>
+      <faxNumber></faxNumber>
+      <emailAddressPrimary></emailAddressPrimary>
+      <webSite></webSite>
+      <ftpSite></ftpSite>
+      <telex></telex>
+    </company>
+  </from>
+  <to>
+    <name>
+      <prefix></prefix>
+      <givenName></givenName>
+      <middleName></middleName>
+      <surname></surname>
+      <suffix></suffix>
+      <singleName>Peter Smith</singleName>
+    </name>
+    <address>
+      <line1>Main Street 123</line1>
+      <line2></line2>
+      <line3></line3>
+      <line4></line4>
+      <city>Munich</city>
+      <stateProvince></stateProvince>
+      <postalCode>54321</postalCode>
+      <country>Germany</country>
+    </address>
+    <identificationNumber></identificationNumber>
+    <emailAddressPrimary></emailAddressPrimary>
+    <emailAddressSecondary></emailAddressSecondary>
+    <telephoneNumberWork></telephoneNumberWork>
+    <telephoneNumberHome></telephoneNumberHome>
+    <telephoneNumberCell></telephoneNumberCell>
+    <telephoneNumberPager></telephoneNumberPager>
+    <faxNumber></faxNumber>
+    <jobTitle></jobTitle>
+    <officeLocation></officeLocation>
+    <department></department>
+    <webSite></webSite>
+    <ftpSite></ftpSite>
+    <company>
+      <name></name>
+      <address>
+        <line1></line1>
+        <line2></line2>
+        <line3></line3>
+        <line4></line4>
+        <city></city>
+        <stateProvince></stateProvince>
+        <postalCode></postalCode>
+        <country></country>
+      </address>
+      <identificationNumber></identificationNumber>
+      <telephoneNumber></telephoneNumber>
+      <faxNumber></faxNumber>
+      <emailAddressPrimary></emailAddressPrimary>
+      <webSite></webSite>
+      <ftpSite></ftpSite>
+      <telex></telex>
+    </company>
+  </to>
+  <currency>
+    <name>EUR</name>
+    <symbol>€</symbol>
+  </currency>
+  <items>
+    <item>
+      <itemNumber>1</itemNumber>
+      <title>PDF Reference Version 1.6 (5th Edition)</title>
+      <author>Adobe Systems Inc.</author>
+      <isbn> 978-0321304742</isbn>
+      <quantity>2</quantity>
+      <discount>5</discount>
+      <price>37.00</price>
+      <percentageTax></percentageTax>
+      <taxable></taxable>
+      <extendedPrice></extendedPrice>
+      <extendedPricePlusTax></extendedPricePlusTax>
+    </item>
+    <item>
+      <itemNumber>2</itemNumber>
+      <title>C# 5.0 Unleashed</title>
+      <author>Bart De Smet</author>
+      <isbn>978-0672336904 </isbn>
+      <quantity>5</quantity>
+      <discount>10</discount>
+      <price>32</price>
+      <percentageTax></percentageTax>
+      <taxable></taxable>
+      <extendedPrice></extendedPrice>
+      <extendedPricePlusTax></extendedPricePlusTax>
+    </item>
+    <item>
+      <itemNumber>3</itemNumber>
+      <title>The Elegant Universe: Superstrings, Hidden Dimensions, and the Quest for the Ultimate Theory</title>
+      <author>Brian Greene</author>
+      <isbn>978-0393338102</isbn>
+      <quantity>1</quantity>
+      <discount></discount>
+      <price>26.00</price>
+      <percentageTax></percentageTax>
+      <taxable></taxable>
+      <extendedPrice></extendedPrice>
+      <extendedPricePlusTax></extendedPricePlusTax>
+    </item>
+    <item>
+      <itemNumber>4</itemNumber>
+      <title>The Mind's I</title>
+      <author>Douglas R. Hofstadter, Daniel C. Dennett</author>
+      <isbn>978-0465030910</isbn>
+      <quantity>1</quantity>
+      <discount></discount>
+      <price>29.90</price>
+      <percentageTax></percentageTax>
+      <taxable></taxable>
+      <extendedPrice></extendedPrice>
+      <extendedPricePlusTax></extendedPricePlusTax>
+    </item>
+    <item>
+      <itemNumber>5</itemNumber>
+      <title>Pro ASP.NET MVC 5 (Expert's Voice in ASP.Net)</title>
+      <author>Adam Freeman</author>
+      <isbn>978-1430265290</isbn>
+      <quantity>2</quantity>
+      <discount></discount>
+      <price>37.50</price>
+      <percentageTax></percentageTax>
+      <taxable></taxable>
+      <extendedPrice></extendedPrice>
+      <extendedPricePlusTax></extendedPricePlusTax>
+    </item>
+    <item>
+      <itemNumber>6</itemNumber>
+      <title>'Surely You're Joking, Mr. Feynman!' (Adventures of a Curious Character)</title>
+      <author>Richard P. Feynman, Ralph Leighton</author>
+      <isbn>0393316041</isbn>
+      <quantity>3</quantity>
+      <discount></discount>
+      <price>9.80</price>
+      <percentageTax></percentageTax>
+      <taxable></taxable>
+      <extendedPrice></extendedPrice>
+      <extendedPricePlusTax></extendedPricePlusTax>
+    </item>
+    <item>
+      <itemNumber>7</itemNumber>
+      <title>The Code Book: The Science of Secrecy from Ancient Egypt to Quantum Cryptography</title>
+      <author>Simon Singh</author>
+      <isbn>978-0385495325</isbn>
+      <quantity>1</quantity>
+      <discount></discount>
+      <price>19.99</price>
+      <percentageTax></percentageTax>
+      <taxable></taxable>
+      <extendedPrice></extendedPrice>
+      <extendedPricePlusTax></extendedPricePlusTax>
+    </item>
+    <item>
+      <itemNumber>8</itemNumber>
+      <title>The Art of Computer Programming, Volumes 1-4A Boxed Set</title>
+      <author>Donald E. Knuth</author>
+      <isbn>978-0321751041</isbn>
+      <quantity>1</quantity>
+      <discount></discount>
+      <price>123</price>
+      <percentageTax></percentageTax>
+      <taxable></taxable>
+      <extendedPrice></extendedPrice>
+      <extendedPricePlusTax></extendedPricePlusTax>
+    </item>
+  </items>
+  <totals>
+    <totalExtendedPrice></totalExtendedPrice>
+    <taxRate></taxRate>
+    <totalTax></totalTax>
+    <shippingAndHandling></shippingAndHandling>
+    <totalDue></totalDue>
+  </totals>
+  <terms>
+    <term></term>
+    <term></term>
+    <term></term>
+  </terms>
+  <notes>This is a sample invoice created by MigraDoc. The PDF document is rendered by PDFsharp.</notes>
+  <signatures></signatures>
+</invoice>
