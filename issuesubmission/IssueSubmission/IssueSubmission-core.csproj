@@ -33,25 +33,20 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MigraDoc.DocumentObjectModel, Version=1.50.4000.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
-      <HintPath>..\packages\PDFsharp-MigraDoc.1.50.4000-beta3b\lib\net20\MigraDoc.DocumentObjectModel.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="MigraDoc.DocumentObjectModel, Version=1.50.4820.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp-MigraDoc.1.50.4820-RC1\lib\net20\MigraDoc.DocumentObjectModel.dll</HintPath>
     </Reference>
-    <Reference Include="MigraDoc.Rendering, Version=1.50.4000.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
-      <HintPath>..\packages\PDFsharp-MigraDoc.1.50.4000-beta3b\lib\net20\MigraDoc.Rendering.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="MigraDoc.Rendering, Version=1.50.4820.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp-MigraDoc.1.50.4820-RC1\lib\net20\MigraDoc.Rendering.dll</HintPath>
     </Reference>
-    <Reference Include="MigraDoc.RtfRendering, Version=1.50.4000.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
-      <HintPath>..\packages\PDFsharp-MigraDoc.1.50.4000-beta3b\lib\net20\MigraDoc.RtfRendering.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="MigraDoc.RtfRendering, Version=1.50.4820.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp-MigraDoc.1.50.4820-RC1\lib\net20\MigraDoc.RtfRendering.dll</HintPath>
     </Reference>
-    <Reference Include="PdfSharp, Version=1.50.4000.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
-      <HintPath>..\packages\PDFsharp-MigraDoc.1.50.4000-beta3b\lib\net20\PdfSharp.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="PdfSharp, Version=1.50.4820.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp-MigraDoc.1.50.4820-RC1\lib\net20\PdfSharp.dll</HintPath>
     </Reference>
-    <Reference Include="PdfSharp.Charting, Version=1.50.4000.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
-      <HintPath>..\packages\PDFsharp-MigraDoc.1.50.4000-beta3b\lib\net20\PdfSharp.Charting.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="PdfSharp.Charting, Version=1.50.4820.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp-MigraDoc.1.50.4820-RC1\lib\net20\PdfSharp.Charting.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
