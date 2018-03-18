@@ -151,8 +151,13 @@ namespace Invoice
 
             // Add the print date field.
             paragraph = section.AddParagraph();
-            // We use SpaceBefore to move the first text line below the address field.
-            paragraph.Format.SpaceBefore = "5.25cm";
+            // We use an empty paragraph to move the first text line below the address field.
+            paragraph.Format.LineSpacing = "5.25cm";
+            paragraph.Format.LineSpacingRule = LineSpacingRule.Exactly;
+            paragraph.Format.Shading.Color = Colors.LightBlue;
+            paragraph = section.AddParagraph();
+            paragraph.Format.Shading.Color = Colors.Firebrick;
+            paragraph.Format.SpaceBefore = 0;
             paragraph.Style = "Reference";
             paragraph.AddFormattedText("INVOICE", TextFormat.Bold);
             paragraph.AddTab();
