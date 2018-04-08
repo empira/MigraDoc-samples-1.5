@@ -232,6 +232,8 @@ namespace Invoice
         /// </summary>
         void FillContent()
         {
+            const double vat = 0.07;
+
             // Fill the address in the address text frame.
             var item = SelectItem("/invoice/to");
             var paragraph = _addressFrame.AddParagraph();
@@ -302,11 +304,11 @@ namespace Invoice
             // Add the VAT row.
             row = _table.AddRow();
             row.Cells[0].Borders.Visible = false;
-            row.Cells[0].AddParagraph("VAT (7%)");
+            row.Cells[0].AddParagraph("VAT (" + (vat * 100) + "%)");
             row.Cells[0].Format.Font.Bold = true;
             row.Cells[0].Format.Alignment = ParagraphAlignment.Right;
             row.Cells[0].MergeRight = 4;
-            row.Cells[5].AddParagraph((0.07 * totalExtendedPrice).ToString("0.00") + " €");
+            row.Cells[5].AddParagraph((vat * totalExtendedPrice).ToString("0.00") + " €");
 
             // Add the additional fee row.
             row = _table.AddRow();
@@ -324,7 +326,7 @@ namespace Invoice
             row.Cells[0].Format.Font.Bold = true;
             row.Cells[0].Format.Alignment = ParagraphAlignment.Right;
             row.Cells[0].MergeRight = 4;
-            totalExtendedPrice += 0.19 * totalExtendedPrice;
+            totalExtendedPrice += vat * totalExtendedPrice;
             row.Cells[5].AddParagraph(totalExtendedPrice.ToString("0.00") + " €");
             row.Cells[5].Format.Font.Name = "Segoe UI";
             row.Cells[5].Format.Font.Bold = true;

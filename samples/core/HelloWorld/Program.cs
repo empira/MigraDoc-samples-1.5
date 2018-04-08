@@ -21,7 +21,7 @@ namespace HelloWorld
             // A flag indicating whether to create a Unicode PDF or a WinAnsi PDF file.
             // This setting applies to all fonts used in the PDF document.
             // This setting has no effect on the RTF renderer.
-            const bool unicode = false;
+            const bool unicode = true;
 
             // Create a renderer for the MigraDoc document.
             var pdfRenderer = new PdfDocumentRenderer(unicode);
@@ -46,6 +46,8 @@ namespace HelloWorld
         {
             // Create a new MigraDoc document.
             var document = new Document();
+
+            document.Styles[StyleNames.Normal].Font.Name = "Lucida Sans";
 
             // Add a section to the document.
             var section = document.AddSection();
